@@ -48,9 +48,14 @@ namespace WpfApp3
         {
             _timer.Stop();
         }
-    }
-    public class Clock
-    {
-        public string time { get; set; }
+
+        private void To12hDisp(object sender, EventArgs e)
+        {
+            this.textbox.Text = DateTime.Now.ToString("hh:mm:ss");
+        }
+        private void To24hDisp(object sender, EventArgs e)
+        {
+            this.textbox.Text = DateTime.Now.ToString("HH:mm:ss");
+        }
     }
 }

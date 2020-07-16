@@ -7,6 +7,25 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <TextBox Name="textbox" Text="{Binding time, UpdateSourceTrigger=PropertyChanged}" Margin="50" />
+        <StackPanel Margin="10">
+            <TextBox Name="textbox"
+                     Text="{Binding time, UpdateSourceTrigger=PropertyChanged}"
+                     FontSize="150"
+                     Margin="50"
+                     VerticalContentAlignment="Center"
+                     HorizontalContentAlignment="Center"/>
+            <StackPanel Margin="10" Orientation="Horizontal">
+                <RadioButton x:Name="ARadioButton"
+                     Content="24時間表示"
+                     FontSize="20"
+                     IsChecked="True"
+                     Checked="To24hDisp"/>
+                <RadioButton x:Name="BRadioButton"
+                     Content="12時間表示"
+                     FontSize="20"
+                     IsChecked="False"
+                     Checked="To12hDisp"/>
+            </StackPanel>
+        </StackPanel>
     </Grid>
 </Window>
