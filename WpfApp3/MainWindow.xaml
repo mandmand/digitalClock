@@ -8,12 +8,12 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <StackPanel Margin="10">
-            <TextBox Name="textbox"
+            <TextBlock Name="textbox"
                      Text="{Binding time, UpdateSourceTrigger=PropertyChanged}"
                      FontSize="100"
                      Margin="50"
-                     VerticalContentAlignment="Center"
-                     HorizontalContentAlignment="Center"/>
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Center"/>
             <StackPanel Margin="10" Orientation="Horizontal">
                 <RadioButton x:Name="ARadioButton"
                      Content="24時間表示"
