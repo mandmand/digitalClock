@@ -10,7 +10,7 @@
         <StackPanel Margin="10">
             <TextBox Name="textbox"
                      Text="{Binding time, UpdateSourceTrigger=PropertyChanged}"
-                     FontSize="150"
+                     FontSize="100"
                      Margin="50"
                      VerticalContentAlignment="Center"
                      HorizontalContentAlignment="Center"/>

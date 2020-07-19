@@ -23,6 +23,8 @@ namespace WpfApp3
     /// </summary>
     public partial class MainWindow : Window
     {
+        bool Disp24h = true;
+
         public MainWindow()
         {
             InitializeComponent();
@@ -30,7 +32,14 @@ namespace WpfApp3
         }
         private void MyTimerMethod(object sender, EventArgs e)
         {
-            this.textbox.Text = DateTime.Now.ToString("HH:mm:ss");
+            if (Disp24h == true)
+            {
+                this.textbox.Text = DateTime.Now.ToString("HH:mm:ss");
+            } else
+            {
+                this.textbox.Text = DateTime.Now.ToString("tthh:mm:ss");
+            }
+            
         }
 
         private DispatcherTimer _timer;
@@ -51,11 +60,11 @@ namespace WpfApp3
 
         private void To12hDisp(object sender, EventArgs e)
         {
-            this.textbox.Text = DateTime.Now.ToString("hh:mm:ss");
+            Disp24h = false;
         }
         private void To24hDisp(object sender, EventArgs e)
         {
-            this.textbox.Text = DateTime.Now.ToString("HH:mm:ss");
+            Disp24h = true;
         }
     }
 }
