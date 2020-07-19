@@ -34,10 +34,10 @@ namespace WpfApp3
         {
             if (Disp24h == true)
             {
-                this.textbox.Text = DateTime.Now.ToString("HH:mm:ss");
+                this.textbox.Text = DateTime.Now.ToString("H:mm:ss");
             } else
             {
-                this.textbox.Text = DateTime.Now.ToString("tthh:mm:ss");
+                this.textbox.Text = DateTime.Now.ToString("tth:mm:ss");
             }
             
         }
