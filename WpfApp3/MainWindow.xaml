@@ -8,6 +8,11 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <StackPanel Margin="10">
+            <StackPanel Margin="10" Orientation="Horizontal">
+                <TextBlock FontSize="20"  Text="ユーザー名："/>
+                <TextBlock FontSize="20" Text="{Binding UserName, UpdateSourceTrigger=PropertyChanged}"/>
+                <Button FontSize="20" Content="変更"/>
+            </StackPanel>
             <TextBlock Name="textbox"
                      Text="{Binding time, UpdateSourceTrigger=PropertyChanged}"
                      FontSize="100"
