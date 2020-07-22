@@ -66,5 +66,11 @@ namespace WpfApp3
         {
             Disp24h = true;
         }
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            ChangeUsesrName changeUsesrName = new ChangeUsesrName();
+            changeUsesrName.Owner = this;
+            changeUsesrName.Show();
+        }
     }
 }

@@ -13,3 +13,5 @@ C:\Users\koji\source\repos\WpfApp3\WpfApp3\obj\Debug\WpfApp3.csproj.GenerateReso
 C:\Users\koji\source\repos\WpfApp3\WpfApp3\obj\Debug\WpfApp3.csproj.CoreCompileInputs.cache
 C:\Users\koji\source\repos\WpfApp3\WpfApp3\obj\Debug\WpfApp3.exe
 C:\Users\koji\source\repos\WpfApp3\WpfApp3\obj\Debug\WpfApp3.pdb
+C:\Users\koji\source\repos\WpfApp3\WpfApp3\obj\Debug\ChangeUsesrName.g.cs
+C:\Users\koji\source\repos\WpfApp3\WpfApp3\obj\Debug\ChangeUsesrName.baml
