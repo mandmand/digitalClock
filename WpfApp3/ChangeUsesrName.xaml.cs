@@ -19,7 +19,7 @@ namespace WpfApp3
     /// </summary>
     public partial class ChangeUsesrName : Window
     {
-        public ChangeUsesrName()
+        public ChangeUsesrName(MainWindow mainWindow)
         {
             InitializeComponent();
         }

@@ -26,12 +26,13 @@ namespace WpfApp3
     {
         bool Disp24h = true;
 
+        private string UserName { get; set; } = "未設定";
 
         public MainWindow()
         {
             InitializeComponent();
             SetupTimer();
-            this.DataContext = new { UserName = "未設定"};
+            this.DataContext = new { UserName = this.UserName };
         }
         private void MyTimerMethod(object sender, EventArgs e)
         {
@@ -71,7 +72,7 @@ namespace WpfApp3
         }
         private void button_Click(object sender, RoutedEventArgs e)
         {
-            ChangeUsesrName changeUsesrName = new ChangeUsesrName();
+            ChangeUsesrName changeUsesrName = new ChangeUsesrName(this);
             changeUsesrName.Owner = this;
             changeUsesrName.Show();
         }
