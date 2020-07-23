@@ -15,6 +15,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.ComponentModel;
 using System.Windows.Threading;
+using System.Runtime.CompilerServices;
 
 namespace WpfApp3
 {
@@ -25,10 +26,12 @@ namespace WpfApp3
     {
         bool Disp24h = true;
 
+
         public MainWindow()
         {
             InitializeComponent();
             SetupTimer();
+            this.DataContext = new { UserName = "未設定"};
         }
         private void MyTimerMethod(object sender, EventArgs e)
         {
