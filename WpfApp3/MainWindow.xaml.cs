@@ -26,7 +26,7 @@ namespace WpfApp3
     {
         bool Disp24h = true;
 
-        private string UserName { get; set; } = "未設定";
+        public string UserName { get; set; } = "未設定";
 
         public MainWindow()
         {
@@ -75,6 +75,15 @@ namespace WpfApp3
             ChangeUsesrName changeUsesrName = new ChangeUsesrName(this);
             changeUsesrName.Owner = this;
             changeUsesrName.Show();
+
+            //コールバック用の関数を登録しとく
+            changeUsesrName.callback_UsernameChange = OnCallBack;
+        }
+
+        //
+        void OnCallBack(string username )
+        {
+            control_textblock_username.Text = username;
         }
     }
 }

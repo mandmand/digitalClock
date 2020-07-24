@@ -8,7 +8,7 @@
         Title="ChangeUsesrName" Height="450" Width="800">
     <Grid>
         <StackPanel Margin="10">
-            <TextBox FontSize="20" Margin="50" Text="{Binding UserName}"/>
+            <TextBox FontSize="20" Margin="50" Text="{Binding UserName}" x:Name="control_textbox_username"/>
             <Button FontSize="20" Content="確定" Click="Button_Click"/>
         </StackPanel>
     </Grid>

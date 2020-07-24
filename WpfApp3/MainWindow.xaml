@@ -10,7 +10,9 @@
         <StackPanel Margin="10">
             <StackPanel Margin="10" Orientation="Horizontal">
                 <TextBlock FontSize="20"  Text="ユーザー名："/>
-                <TextBlock FontSize="20" Text="{Binding UserName, UpdateSourceTrigger=PropertyChanged}"/>
+                <TextBlock FontSize="20" Text="{Binding UserName, UpdateSourceTrigger=PropertyChanged}"
+                           x:Name="control_textblock_username"
+                           />
                 <Button FontSize="20" Content="変更" Click="button_Click"/>
             </StackPanel>
             <TextBlock Name="textbox"

@@ -19,6 +19,12 @@ namespace WpfApp3
     /// </summary>
     public partial class ChangeUsesrName : Window
     {
+        private MainWindow m_parent_instance = null;
+
+        //コールバックの準備：delegateの使い方とか検索すると、ノリがわかるかも。
+        public delegate void delegete_callback_string_notify(string data);
+        public delegete_callback_string_notify callback_UsernameChange = null;
+
         public ChangeUsesrName(MainWindow mainWindow)
         {
             InitializeComponent();
@@ -26,6 +32,12 @@ namespace WpfApp3
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            if (callback_UsernameChange != null)
+            {
+                string notify_info = control_textbox_username.Text;
+                callback_UsernameChange(notify_info);
+            }
+
             this.Close();
         }
     }
