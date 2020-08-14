@@ -16,13 +16,14 @@ using System.Windows.Shapes;
 using System.ComponentModel;
 using System.Windows.Threading;
 using System.Runtime.CompilerServices;
+using MahApps.Metro.Controls;
 
 namespace WpfApp3
 {
     /// <summary>
     /// MainWindow.xaml の相互作用ロジック
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MainWindow : MetroWindow
     {
         bool Disp24h = true;
 
