@@ -1,6 +1,7 @@
-﻿<Window x:Class="WpfApp3.ChangeUsesrName"
+﻿<Controls:MetroWindow x:Class="WpfApp3.ChangeUsesrName"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp3"
@@ -12,4 +13,4 @@
             <Button FontSize="20" Content="確定" Click="Button_Click"/>
         </StackPanel>
     </Grid>
-</Window>
+    </Controls:MetroWindow>

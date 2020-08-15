@@ -15,7 +15,6 @@ C:\Users\koji\source\repos\WpfApp3\WpfApp3\obj\Debug\WpfApp3.exe
 C:\Users\koji\source\repos\WpfApp3\WpfApp3\obj\Debug\WpfApp3.pdb
 C:\Users\koji\source\repos\WpfApp3\WpfApp3\obj\Debug\ChangeUsesrName.g.cs
 C:\Users\koji\source\repos\WpfApp3\WpfApp3\obj\Debug\ChangeUsesrName.baml
-C:\Users\Koji\code\C#\digitalClock\WpfApp3\obj\Debug\WpfApp3.csprojAssemblyReference.cache
 C:\Users\Koji\code\C#\digitalClock\WpfApp3\obj\Debug\ChangeUsesrName.g.cs
 C:\Users\Koji\code\C#\digitalClock\WpfApp3\obj\Debug\MainWindow.g.cs
 C:\Users\Koji\code\C#\digitalClock\WpfApp3\obj\Debug\App.g.cs
@@ -42,3 +41,6 @@ C:\Users\Koji\code\C#\digitalClock\WpfApp3\obj\Debug\WpfApp3.Properties.Resource
 C:\Users\Koji\code\C#\digitalClock\WpfApp3\obj\Debug\WpfApp3.csproj.GenerateResource.cache
 C:\Users\Koji\code\C#\digitalClock\WpfApp3\obj\Debug\WpfApp3.csproj.CoreCompileInputs.cache
 C:\Users\Koji\code\C#\digitalClock\WpfApp3\obj\Debug\WpfApp3.csproj.CopyComplete
+C:\Users\Koji\code\C#\digitalClock\WpfApp3\obj\Debug\App.baml
+C:\Users\Koji\code\C#\digitalClock\WpfApp3\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Koji\code\C#\digitalClock\WpfApp3\obj\Debug\WpfApp3.csprojAssemblyReference.cache

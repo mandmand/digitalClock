@@ -11,13 +11,15 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Runtime.CompilerServices;
+using MahApps.Metro.Controls;
 
 namespace WpfApp3
 {
     /// <summary>
     /// ChangeUsesrName.xaml の相互作用ロジック
     /// </summary>
-    public partial class ChangeUsesrName : Window
+    public partial class ChangeUsesrName : MetroWindow
     {
         private MainWindow m_parent_instance = null;
 
